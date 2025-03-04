@@ -1,0 +1,5 @@
+p{
+    border: 3px groove blueviolet;
+    outline: 3px dashed blue;
+    outline-offset: 4px;
+}

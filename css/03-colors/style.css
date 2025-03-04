@@ -1,0 +1,22 @@
+h1{
+
+    background-color: rgb(209, 216, 183);
+
+    color: rgb(134, 9, 20);
+
+    
+    /* 
+    
+    names
+    rgb (0-255,0-255,0-255)
+    rgba (0-255,0-255,0-255,0.1 to 1.0)
+    hexa (#(Aa-Ff,0-9))
+
+    */
+}
+
+h2{
+    background-color: #f45676d2;
+    
+}
+
