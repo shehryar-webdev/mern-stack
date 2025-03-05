@@ -1,0 +1,22 @@
+.test{
+    /*
+    Padding: padding have some extra space around the content
+    So, padding sider are:
+                            01- top
+                            02- right 
+                            03- bottom
+                            04- left 
+     */
+
+    border: 2px solid orangered;
+    padding: 20px 30px 40px 60px
+}
+p{
+
+    border: 3px groove black;
+    padding: 40px 80px;
+}
+.main{
+    background-color: aqua;
+    padding: 20px 40px;
+}

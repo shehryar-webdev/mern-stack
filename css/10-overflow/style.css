@@ -1,0 +1,48 @@
+/*
+    01- overflow
+    02- overflow-X
+    03- overflow-y
+        overflow types: 
+                1- Hidden
+                2- Scroll
+                3- Auto
+                4- Visibble
+ */
+.overflowhidden{
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.scroll{
+    border: 3px solid royalblue;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    margin-bottom: 4px;
+
+}
+.auto{
+    border: 3px solid chocolate;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 4px;
+}
+.overflow-x{
+    border: 3px solid purple;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 4px;
+    overflow-x: scroll;
+
+}
+.overflow-y{
+    border: 3px solid saddlebrown;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 4px;
+    overflow-y: scroll;
+
+}

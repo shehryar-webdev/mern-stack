@@ -1,0 +1,22 @@
+.contentbox{
+    /* 
+    box-sizing have 02 types thats are:
+                01- content-box
+                02- border-box
+     */
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 4px;
+    padding: 20px;
+    border: 3px solid aquamarine;
+    box-sizing:content-box;
+}
+.borderbox{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 3px solid aqua;
+    box-sizing:border-box;
+}
