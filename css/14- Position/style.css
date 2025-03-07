@@ -1,0 +1,67 @@
+*{
+    margin: 8px;
+    padding: 0;
+}
+.box1{
+    /* 
+        Css position have 04 types:display:
+            (static is by default position) 
+                                           01- relative
+                                           02- absolute
+                                           03- fixed
+                                           04- sticky
+     */
+    border: 5px solid aqua;
+    height: 200px;
+    width: 800px;
+    margin: 4px;
+    background-color: blue;
+    /* position: relative;
+    top: 34px;
+    right: 23px; */
+    
+    
+    /* position: fixed;
+    top: 25px;
+    left: 25px; */
+
+    /* position: absolute;    
+    top: 25px;
+    left: 25px; */
+
+    /* position: sticky;
+    top: 0; */
+
+}
+.box2{
+    border: 3px solid orange ;
+    height: 200px;
+    width: 800px;
+    margin-top: 8px;
+    background-color: aquamarine;
+    
+}
+.box3{
+    border: 3px solid lawngreen;
+    height: 200px;
+    width: 800px;
+    margin-top: 8px;
+    background-color: blueviolet;
+}
+.box4{
+    border: 3px solid blanchedalmond;
+    height: 200px;
+    width: 800px;
+    margin-top: 8px;
+    background-color: black;
+}
+.parent{
+    border: 5px solid yellowgreen;
+    margin: 10px;
+    padding: 34px;
+    /* position: relative; */
+}
+#text{
+    border: 2px solid lightcoral;
+    margin-bottom: 40px;
+}
