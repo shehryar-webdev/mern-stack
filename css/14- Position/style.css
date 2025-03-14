@@ -26,8 +26,8 @@
     left: 25px; */
 
     /* position: absolute;    
-    top: 25px;
-    left: 25px; */
+    left: 0px;
+    right: 150px; */
 
     /* position: sticky;
     top: 0; */
@@ -40,6 +40,7 @@
     margin-top: 8px;
     background-color: aquamarine;
     
+    
 }
 .box3{
     border: 3px solid lawngreen;
@@ -47,6 +48,8 @@
     width: 800px;
     margin-top: 8px;
     background-color: blueviolet;
+    /* position: sticky;
+    top: 0; */
 }
 .box4{
     border: 3px solid blanchedalmond;

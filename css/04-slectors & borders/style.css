@@ -7,3 +7,63 @@ h1{
     border-top: 4px groove blueviolet;
     border-right: 6px dashed green;
 }
+
+
+    /* now we use child selctors */
+
+    div > p{
+        color: bisque;
+    }
+    
+        /* now we use descendant selectors */
+    
+    .descendant p{
+    
+        background-color: black;
+        color: blueviolet;
+    }    
+    
+        /*  so, if we use universal selctors */
+    
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    
+        /* pseudo selectors:
+        
+        In this selectors if our link is visited then its color will goldenrod*/
+    
+    a:visited{
+        color: goldenrod;
+    }
+    
+        /* And similar above lin selector also here: if our link not visited then our link color will */
+
+    a:link{
+        color: aqua;
+
+    }
+        /* And also use in anchor tag (active selector) "when u click on your linke it first blink" */
+    
+    a:active{
+            background-color: brown;
+        }
+            /* And also pseudo selectors here(hover) for anchor tag */
+     
+    a:hover{
+        background-color: blue;
+    }
+
+            /* And in this pseudo selector  */
+    
+    h2:first-child{
+        background-color: cornflowerblue;
+    }
+
+
+    
+    
+    
+    
+    

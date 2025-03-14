@@ -1,0 +1,84 @@
+.box1{
+    border: 2px solid black;
+    /* width: 2048px; */
+    /* if we use vw(viewport width) so, */
+    /* width: 100vw; */
+    width: 80vw;
+
+    box-sizing: border-box;
+    background-color: aqua;
+    
+    /* we can use margin-auto in block-line elements.its mean left to right eqral the content will center */
+
+    margin: auto;
+}
+
+.container{
+    border: 3px solid navy;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 4px auto;
+    height: 100vh;
+} */
+
+    /* (by default font-size is 16px) now we use em  (1em=16px) so, 2em means double of 16px (this will 32px)
+
+.container p{
+    
+    font-size: 2em;
+
+}
+
+    /* now we use rem */
+
+html{
+    font-size: 12px;
+}
+    /* it will double of html font-size so, rem means 'r' mean root(root element) and em mean its double */
+
+.rem{
+
+    font-size:2rem ;
+}
+    /* here, we use vmin and vmax. vmin would represent the width of the viewport and vmax would represent the height of the device.
+    vmin like vw and also vmax like vh */
+.cont{
+    background-color: aqua;
+    color: brown;
+    font-size: 24px;
+    width: 95vmin;
+    height: 50vmin;
+    border: 3px groove gray ;
+    margin-bottom: 4px;
+
+}
+
+.mycont{
+    background-color: blueviolet;
+    border: 3px solid #a76d;
+    text-align: center;
+    color: azure;
+    width: 95vmin;
+    min-height: 80vh;
+
+}
+
+.parentdiv{
+    background-color: darksalmon;
+    border: 4px solid blue;
+    min-height: 67vh;
+}
+
+.parentdiv > div{
+    width: 50%;
+    height: 45%;
+    border: 2px solid blue;
+}
+
+.parentdiv > div > div{
+    width: 50%;
+    height: 45%;
+    border: 2px solid blue;
+
+}
